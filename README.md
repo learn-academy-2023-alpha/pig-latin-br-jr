@@ -52,6 +52,34 @@ Oday ouyay eakspay igpay atinlay? If you are scratching your head at that statem
 - Can hit the submit button
 - Can see the words that begin with a vowel translated to Pig Latin and rendered to the page (e.g. appleway)
 
+Pseudocode: 
+input: a string that starts vowel. 
+create a function vowelWay that takes in a string.  and if any of the words in the string begin with a vowel it will add way to the end of each word.
+
+Output: the string that begind with a vowel with the string "way" added to the end. example orangeway
+
+let testString = ("apple orange extra")
+
+const vowelWay = (vowelsArray) => {
+    if vowelsArray.split("").map 
+}
+
+
+
+
+
+
+<!-- Add character to String at end of String in Javascript
+Using + operator
+You can use + operator to add character to String in Javascript.
+
+Here is an example:
+ 
+var str='javascrip';
+var result= str+ 't';
+console.log(result)
+ --> javascript
+
 **Story 2: In order to see English words converted to Pig Latin, as the user of the application, I need to see words that have "qu" in the first syllable translated by moving all the consonant and the "u" to the end and add "ay".**
 
 **Branch:** qu-functionality
@@ -81,6 +109,17 @@ Oday ouyay eakspay igpay atinlay? If you are scratching your head at that statem
 - Can type any word that starts with one or more consonants in the text input (e.g. through)
 - Can hit the submit button
 - Can see the words that start with one or more consonants translated to Pig Latin and rendered to the page (e.g. oughthray)
+
+<!-- Add character to String at end of String in Javascript
+Using + operator
+You can use + operator to add character to String in Javascript.
+
+Here is an example:
+ 
+var str='javascrip';
+var result= str+ 't';
+console.log(result)
+ --> javascript
 
 ### 🏔 Stretch Challenges
 
